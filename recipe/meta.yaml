@@ -1,5 +1,5 @@
 {% set name = "pyhough" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyhough-{{ version }}.tar.gz
-  sha256: ccebab24362daa826c7ac3aa7db188c041562262ff17cfd6f80e0bfc6d99532e
+  sha256: 83e700918b8bad7fcf88de134699c68f66f46e9711637938f88f59066f4aa742
 
 build:
   noarch: python
